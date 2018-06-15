@@ -108,4 +108,4 @@ if (pagename() === "GALLERY"){
 	};
 
 //checkVersionLable
-checkVersionLable ();
+	//checkVersionLable ();
