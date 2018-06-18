@@ -16,3 +16,11 @@ iframe.vp-sidedock {
 iframe.logo-v {
     display: none !important;
 }
+
+.player .vp-sidedock {
+    display: none !important;
+}
+	
+.player .vp-controls .logo {
+    display: none !important;
+}
