@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/*
+ ***************************************
+*		 * CODED FRAMEWORK *  			*
+*	DEVELOPED BY: CASTERO - KUMASI		*
+*										*
+*			  AKA: CODED				*
+ ***************************************
+*/
+
+iframe.vp-sidedock {
+    display: none !important;
+}
+	
+iframe.logo-v {
+    display: none !important;
+}
