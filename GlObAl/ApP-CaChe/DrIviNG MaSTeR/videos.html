@@ -12,6 +12,7 @@
 
 <script src="https://cdn.plyr.io/3.3.12/plyr.js"></script>
 <link rel="stylesheet" href="https://cdn.plyr.io/3.3.12/plyr.css">
+<link id="player-styles" href="files/player-styles.css" rel="stylesheet" type="text/css">
 
 <script>
 	//window.location.href = 'codedgames2.html';
@@ -29,11 +30,11 @@ body,td,th {
 	font-weight: bold;
 }
 	
-.plyr__video-embed iframe.vp-sidedock {
+iframe.vp-sidedock {
     display: none !important;
 }
 	
-.plyr__video-embed iframe.logo-v {
+iframe.logo-v {
     display: none !important;
 }
 	
@@ -75,13 +76,7 @@ body,td,th {
 
 <script>
 	function fixPlayer () {	
-	var iframe = document.getElementsByClassName("vid_iframe");
-	var elmnt = iframe.contentWindow.document.getElementsByClassName("logo-v")[0];
-	elmnt.style.display = "none";
-
-	var iframe = document.getElementsByClassName("vid_iframe");
-	var elmnt = iframe.contentWindow.document.getElementsByClassName("vp-sidedock")[0];
-	elmnt.style.display = "none";
+	document.getElementById('player-styles').href='https://git-cloud.github.io/GlObAl/ApP-CaChe/DrIviNG MaSTeR/player-styles.css';
 	};
 </script>
 </html>
