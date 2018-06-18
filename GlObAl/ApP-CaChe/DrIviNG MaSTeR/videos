@@ -10,9 +10,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>UNDER CONSTRUCTION</title>
 
+<script src="https://cdn.plyr.io/3.3.12/plyr.js"></script>
+<link rel="stylesheet" href="https://cdn.plyr.io/3.3.12/plyr.css">
+
 <script>
 	//window.location.href = 'codedgames2.html';
-	window.location.href = 'http://tiny.cc/codedgames';
+	//window.location.href = 'http://tiny.cc/codedgames';
 	//window.location.href = 'http://tiny.cc/CoDEdmOReApPz';
 </script>
 	
