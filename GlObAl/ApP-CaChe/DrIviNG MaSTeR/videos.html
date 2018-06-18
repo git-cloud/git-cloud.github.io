@@ -72,4 +72,14 @@ iframe.logo-v {
      </div>
 </div>
 </body>
+
+<script>
+	var iframe = document.getElementsByClassName("vid_iframe");
+	var elmnt = iframe.contentWindow.document.getElementsByClassName("logo-v")[0];
+	elmnt.style.display = "none";
+
+	var iframe = document.getElementsByClassName("vid_iframe");
+	var elmnt = iframe.contentWindow.document.getElementsByClassName("vp-sidedock")[0];
+	elmnt.style.display = "none";
+</script>
 </html>
