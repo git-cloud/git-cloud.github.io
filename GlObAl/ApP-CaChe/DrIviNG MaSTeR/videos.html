@@ -46,7 +46,7 @@ body,td,th {
 	<div id="video-container" style="padding-top: 0em;">
 	
 	  <div class="plyr__video-embed" id="player1">
-    		<iframe class="vid_iframe" src="https://player.vimeo.com/video/275386290?loop=false&amp;byline=false&amp;portrait=false&amp;title=true&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen allowtransparency allow="autoplay"></iframe>
+    		<iframe onload="fixPlayer()" class="vid_iframe" src="https://player.vimeo.com/video/275386290?loop=false&amp;byline=false&amp;portrait=false&amp;title=true&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen allowtransparency allow="autoplay"></iframe>
 	  </div><br>
 	  <div class="plyr__video-embed" id="player2">
     		<iframe class="vid_iframe" src="https://player.vimeo.com/video/275385189?loop=false&amp;byline=false&amp;portrait=false&amp;title=true&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen allowtransparency allow="autoplay"></iframe>
@@ -74,6 +74,7 @@ body,td,th {
 </body>
 
 <script>
+	function fixPlayer () {	
 	var iframe = document.getElementsByClassName("vid_iframe");
 	var elmnt = iframe.contentWindow.document.getElementsByClassName("logo-v")[0];
 	elmnt.style.display = "none";
@@ -81,5 +82,6 @@ body,td,th {
 	var iframe = document.getElementsByClassName("vid_iframe");
 	var elmnt = iframe.contentWindow.document.getElementsByClassName("vp-sidedock")[0];
 	elmnt.style.display = "none";
+	};
 </script>
 </html>
